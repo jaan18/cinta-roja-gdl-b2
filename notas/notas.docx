@@ -1,0 +1,19 @@
+git add . //con punto agregas todo
+git commit -m "comentario de nuestro cambio"
+git push -u origin master //lo sube al servidor
+
+Tipos de datos en JV
+Undefined tiene espacio en memoria pero tiene ausencia de valor
+NUll no es nada ni igual a nada
+Boolean true o false
+Number solo existe un dato primitivo es como int con float
+String secuencia de caracteres, dato primitivo
+Symbol es un caracter ems6
+
+Operators in JavaScript son iguales a los de C++
+
+Coercion
+convertir un valor a otro tipo de valor
+numero a string o al reves
+let a = '1' + 2
+a = 
