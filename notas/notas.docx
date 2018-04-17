@@ -1,6 +1,9 @@
+git init //para iniciar proyecto, solamente
 git add . //con punto agregas todo
 git commit -m "comentario de nuestro cambio"
 git push -u origin master //lo sube al servidor
+git log // bitacora de todo lo que has hecho solamente en esa rama
+git push -f master //ultimo recurso
 
 Tipos de datos en JV
 Undefined tiene espacio en memoria pero tiene ausencia de valor
@@ -17,3 +20,21 @@ convertir un valor a otro tipo de valor
 numero a string o al reves
 let a = '1' + 2
 a = 
+=== triple igual para ver si son del mismo tipo de datos
+
+objetos un objeto es una coleccion de propiedades y metodos
+por ejemplo un carro
+atributos
+-color
+-velocidad
+-ruedas
+metodos
+-arranca()
+-frena()
+
+contructor es un metodo que se ejecuta automaticamente cuando se crea una instancia de esa clase
+su funcion es inicializar el objeto y sirve para aseguratnos que los objetos 
+
+herencia
+extends y super
+objeto animal y extender subclases de tipo voladores y terrestres y hacer cosas 

@@ -9,9 +9,13 @@ class persona{
 
 
 //Funcion 
-presentarse(){
-    return "Hola me llamo " + this.nombre + "y tengo" + this.edad + "años"
-}
+    presentarse(){
+     return "Hola me llamo " + this.nombre + "y tengo" + this.edad + "años"
+    }
+
+    correr(){
+      return "estoy corriendo"
+    }
 
 }
 
@@ -37,4 +41,5 @@ perimetro(){
 
 var triangulito = new triangulo(3,5)
 console.log("area "+triangulito.area())
-console.log("perimetro" +triangulito.perimetro())
+console.log("perimetro " +triangulito.perimetro())
+
